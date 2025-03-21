@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #1E1E1E;
     background: linear-gradient(135deg, #0f0d0d, #2e2c2c);
     color: white;
@@ -85,9 +85,10 @@ input:checked + .slider:before {
     border-radius: 20px;
     border: none;
     background: rgba(255, 255, 255, 0.2);
-    color: white;
+    color: black;
     outline: none;
     font-size: 14px;
+    background-color: white;
 }
 
 .search-icon {
@@ -387,7 +388,7 @@ body.light-mode {
 }
 
 input:checked + .slider {
-    background-color: #ddd;
+    background-color: greenyellow;
 }
 
 input:checked + .slider:before {
